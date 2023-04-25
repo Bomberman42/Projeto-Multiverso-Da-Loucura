@@ -236,7 +236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccd6a55955fafce42a19295a96234689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Player: {fileID: 2795861224148791985, guid: e107c724a2856de4c8962197dc69af9d, type: 3}
   minX: 8.46
   maxX: -8.46
   minY: 4.5
