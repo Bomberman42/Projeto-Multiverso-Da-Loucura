@@ -5,6 +5,10 @@ using Photon.Pun;
 
 public class Player : MonoBehaviour
 {
+    [Header("Propriedades do Player")]
+    [SerializeField]
+    private float playerSpeed;
+
     private Animator animator;
     private PhotonView photonView;
 
@@ -13,12 +17,6 @@ public class Player : MonoBehaviour
     {
         this.animator = GetComponent<Animator>();
         this.photonView = GetComponent<PhotonView>();
-    }
-
-    // Update is called once per frame
-    private void Update()
-    {
-
     }
 
     private void FixedUpdate()
@@ -32,7 +30,7 @@ public class Player : MonoBehaviour
         float vertical = Input.GetAxis("Vertical");
         Vector3 input = new Vector3(horizontal, vertical, 0);
 
-        this.transform.position += input.normalized * 1 * Time.deltaTime;
+        this.transform.position += input.normalized * playerSpeed * Time.deltaTime;
 
         if (input == Vector3.zero)
         {
