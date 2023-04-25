@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 5181898807100052144}
   - component: {fileID: 6490476561029072642}
   - component: {fileID: 6498506492798923102}
+  - component: {fileID: 6259707728962930843}
   m_Layer: 0
   m_Name: Bat
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: -222011296, guid: 55bd559141dea4247b3f2a74e15e2969, type: 3}
+  m_Sprite: {fileID: 1033771534, guid: 55bd559141dea4247b3f2a74e15e2969, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -106,3 +107,15 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6259707728962930843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2795861224148791985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45d5bdcf58468ff4fbb441ccafc978d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
